@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/09/2013, 11:07:40
+    Author     : ebiro_2
+*/
+
+#conteudo .login{
+    width: 25%;
+    margin: 0 auto;
+}
+
+#conteudo img{
+    width: 150px;
+    height: 100px;
+}
+
+.botao{
+    background: #CCC;
+    color: black;
+    border: 1px solid black;
+}

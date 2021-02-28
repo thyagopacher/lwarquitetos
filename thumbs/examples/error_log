@@ -1,0 +1,6 @@
+[04-Nov-2013 15:37:55 UTC] PHP Warning:  Parameter 6 to GdReflectionLib::createReflection() expected to be a reference, value given in /home/lwarq/public_html/novo/thumbs/ThumbBase.inc.php on line 212
+[04-Nov-2013 15:37:55 UTC] PHP Fatal error:  Uncaught exception 'RuntimeException' with message 'Cannot show image, headers have already been sent' in /home/lwarq/public_html/novo/thumbs/GdThumb.inc.php:569
+Stack trace:
+#0 /home/lwarq/public_html/novo/thumbs/examples/reflection.php(30): GdThumb->show()
+#1 {main}
+  thrown in /home/lwarq/public_html/novo/thumbs/GdThumb.inc.php on line 569

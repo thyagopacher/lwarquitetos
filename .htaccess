@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on 
+    RewriteCond %{REQUEST_FILENAME} !-d 
+    RewriteCond %{REQUEST_FILENAME}\.php -f 
+    RewriteRule ^(.*)$ $1.php 
+    RewriteRule ^admin/?$ painel [NC,L]
+    RewriteRule ^contato/?$ visao/Contato.php [NC,L]
+    RewriteRule ^ebiro/?$ http://www.ebiro.com.br [NC,L]
+</IfModule>
+ 
+#proibindo listagem de diretório
+IndexIgnore *.wmv *.jpg *.gif *.swf
+
+
+### fim das otimizacoes ###
+
+#Adjust default time zone 
+SetEnv TZ America/Sao_Paulo

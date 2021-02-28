@@ -1,0 +1,1 @@
+<?php    require_once 'thumbs/ThumbLib.inc.php';    $thumb = PhpThumbFactory::create($_GET["imagem"]);    $thumb->resize($_GET["w"], $_GET["h"]);    $thumb->show();    ?>

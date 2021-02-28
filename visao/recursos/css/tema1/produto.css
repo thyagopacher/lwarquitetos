@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/09/2013, 14:42:03
+    Author     : ebiro_2
+*/
+
+#produto #imgsProduto{
+    width: 40%;
+    float: left;
+    margin-right: 5px;
+}
+
+#produto #imgsProduto .grande{
+    width: 100%;
+    float: left;
+}
+
+#produto #imgsProduto .pequena{
+    width: 80%;
+    float: left;
+}
+
+#produto #infProduto{
+    width: 60%;
+    float: right;
+    margin: -5px;
+}
+
+#produto #descricao{
+    float: left;
+    text-align: justify;
+}
+
+#produto #descricao h4{
+    background: #aaa;
+}
+
+#produto #outrosProdutos{
+    width: 100%;
+    float: left;
+    position: relative;
+} 
+
+#produto #outrosProdutos h4{
+    background: #aaa;
+}
+
+#produto #outrosProdutos img{
+    width: 150px;
+    height: 100px;
+    overflow: auto;
+}
+
+     
